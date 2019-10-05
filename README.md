@@ -2,7 +2,7 @@
 
 > Amortization table calculator
 
-![amortable](https://github.com/cesargdm/amortable/raw/master/.github/images/amortable.png)
+<img alt="Amortable" src="https://github.com/cesargdm/amortable/raw/master/.github/images/amortable.png" width="400">
 
 ### Requirements
 
