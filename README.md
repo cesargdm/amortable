@@ -2,6 +2,24 @@
 
 > Amortization table calculator
 
+## Usage
+
+_Install package_
+
+```bash
+npm i -g amortable
+```
+
+_Run_
+
+```bash
+amortable --interactive
+```
+
+```bash
+amortable --file FILE_PATH
+```
+
 ## Run locally
 
 ### Requirements
