@@ -6,7 +6,8 @@
 
 ### Requirements
 
-- Node.js > 10
+- Node.js 10.x or higher
+- npm 5.2.x or higher
 
 ## Quick start
 
