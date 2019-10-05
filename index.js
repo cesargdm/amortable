@@ -25,7 +25,8 @@ function runAction(action) {
 function runActions(input, isInteractive) {
   try {
     const stringCommands = utils.inputToCommands(input);
-    const actions = utils.getActionsFromCommands(stringCommands);
+    let actions = utils.getActionsFromCommands(stringCommands);
+    actions = actions.sort(utils.sortByPerson);
 
     actions.forEach(runAction);
   } catch (error) {

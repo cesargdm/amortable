@@ -2,6 +2,15 @@ const COMMANDS = {
   ADD_LOAN: "Add"
 };
 
+function sortByPerson(
+  { data: { person: personA } },
+  { data: { person: personB } }
+) {
+  if (personB > personA) return -1;
+  if (personB < personA) return 1;
+  return 0;
+}
+
 function parseInputToAction(commandString) {
   const separeatedCommand = commandString.split(" ");
 
@@ -34,4 +43,9 @@ function getActionsFromCommands(input) {
   return input.map(parseInputToAction);
 }
 
-module.exports = { inputToCommands, getActionsFromCommands, COMMANDS };
+module.exports = {
+  inputToCommands,
+  getActionsFromCommands,
+  sortByPerson,
+  COMMANDS
+};

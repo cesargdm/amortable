@@ -1,3 +1,3 @@
 Add Tom 101-1313-101 $300 35.5% 12
-Add Quincy 10VASL101 $500 1% 12
 Add John 102-2131-102 $300 10.0% 8
+Add Quincy 10VASL101 $500 1% 12
