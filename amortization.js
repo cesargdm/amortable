@@ -49,7 +49,7 @@ function displaySchedule(data) {
   let schedule = getSchedule(data);
 
   schedule = [
-    ["Payment", "Payment", "Principal", "Interest", "Balance"],
+    ["Payment", "Amount", "Principal", "Interest", "Balance"],
     ...schedule
   ];
 
