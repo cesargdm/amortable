@@ -2,29 +2,31 @@
 
 > Amortization table calculator
 
-## Usage
+### Requirements
 
-_Install package_
+- Node.js > 10
+
+## Quick start
+
+You can install this package globally by running `npm i -g amortable` this will avoid the need to run `npx` and instead just run `amortable ...`
+
+### Commands
+
+Interactive mode:
 
 ```bash
-npm i -g amortable
+> npx amortable --interactive
 ```
 
-_Run_
+Specify file:
 
 ```bash
-amortable --interactive
-```
-
-```bash
-amortable --file FILE_PATH
+> npx amortable --file ...
 ```
 
 ## Run locally
 
-### Requirements
-
-NodeJS v10
+Clone repo and install dependencies with `npm i`
 
 ### Commands
 
