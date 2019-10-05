@@ -12,7 +12,7 @@
 
 You can install this package globally by running `npm i -g amortable` this will avoid the need to run `npx` and instead just run `amortable ...`
 
-The input structure is: `COMMAND NAME ID LOAN_AMOUNT ANNUAL_PERCENTAGE PERIOD(MONTHS)`, example: `Add Tom 101-1313-101 \$300 35.5% 12`
+The input structure is: `COMMAND NAME ID LOAN_AMOUNT ANNUAL_PERCENTAGE PERIOD(MONTHS)`, example: `Add Tom 101-1313-101 $300 35.5% 12`
 
 ### Commands
 
