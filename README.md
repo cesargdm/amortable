@@ -1,18 +1,23 @@
+# Amortable
 
-## Run locally 
+> Amortization table calculator
 
-## Requirements
+## Run locally
+
+### Requirements
 
 NodeJS v10
 
-## Commands
+### Commands
 
 Specify file:
+
 ```bash
 node index.js -f ./data.txt
 ```
 
 Interactive mode:
+
 ```bash
 node index.js -i
 ```
