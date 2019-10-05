@@ -15,13 +15,13 @@ You can install this package globally by running `npm i -g amortable` this will 
 Interactive mode:
 
 ```bash
-> npx amortable --interactive
+> npx amortable --interactive # or -i or ommit
 ```
 
-Specify file:
+Run commands from file:
 
 ```bash
-> npx amortable --file ...
+> npx amortable --file ... # or -f
 ```
 
 ## Run locally
