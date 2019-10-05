@@ -2,6 +2,8 @@
 
 > Amortization table calculator
 
+![amortable](https://github.com/cesargdm/amortable/raw/master/.github/images/amortable.png)
+
 ### Requirements
 
 - Node.js > 10
@@ -9,6 +11,8 @@
 ## Quick start
 
 You can install this package globally by running `npm i -g amortable` this will avoid the need to run `npx` and instead just run `amortable ...`
+
+The input structure is: `COMMAND NAME ID LOAN_AMOUNT ANNUAL_PERCENTAGE PERIOD(MONTHS)`, example: `Add Tom 101-1313-101 \$300 35.5% 12`
 
 ### Commands
 
